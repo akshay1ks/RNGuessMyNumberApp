@@ -15,17 +15,18 @@ export default NumberContainer;
 
 const styles = StyleSheet.create({
     container: {
-        borderWidth: 4,
+        borderWidth: 3,
         borderColor: Colors.accent700,
-        padding: 24,
-        margin: 24,
+        width: 150,
+        padding: 10,
+        marginTop: 20,
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 8,
     },
     numberText: {
+        fontFamily: 'open-sans-bold',
         fontSize: 36,
         color: Colors.accent700,
-        fontWeight: 'bold',
     },
 });
