@@ -1,4 +1,4 @@
-import { Text, StyleSheet } from 'react-native';
+import { Text, StyleSheet, Platform } from 'react-native';
 import Colors from '../../constants/colors';
 
 function Title({ children }) {
@@ -13,9 +13,11 @@ const styles = StyleSheet.create({
         fontSize: 24,
         marginBottom: 16,
         color: Colors.accent700,
-        borderWidth: 1,
+        borderWidth: 0,
         borderColor: Colors.accent700,
         padding: 12,
         textAlign: 'center',
+        maxWidth: '80%',
+        width: 300,
     },
 }); 

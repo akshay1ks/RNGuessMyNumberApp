@@ -30,8 +30,10 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.25,
     },
     roundNumberText: {
+        paddingHorizontal: 6,
         fontFamily: 'open-sans',
         color: Colors.primary800,
+        fontSize: 16,
     },
 });
 
